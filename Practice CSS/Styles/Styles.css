@@ -1,0 +1,59 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+h2 a:hover{
+  color: orange
+}
+
+li:hover {
+  color: orange
+}
+
+body {
+    font-family: Raleway, sans-serif;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRtfa0mcoof_95XBJgMnIk7aVVulGcawIAxgrwJ_Sn5yLGGrtLS);
+    max-width: 300px;
+    margin: auto;
+}
+
+.AC-Origins {
+  border-radius: 20px
+}
+
+.AC-Origins:hover {
+    box-shadow: rgb(171, 110, 19) 0px 0px 60px 10px;
+}
+
+.ACgame {
+    box-shadow: orange 5px 10px;
+}
+
+.ACfight:hover {
+    box-shadow: grey 5px 10px;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
